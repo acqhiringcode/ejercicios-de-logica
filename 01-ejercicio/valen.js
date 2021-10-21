@@ -1,7 +1,9 @@
 // Crear una funcion que devuelva por consola los numeros del 1 al 10
 
-function devolverNumero() {
+function devolverNumero(numero,letra) {
     console.log("devolverNumero");
-    for (let i = 1; i <= 10; i ++);
-    console.log(i);
+    for (let i = numero; i >= 1; i --) {
+        console.log(i,letra);
+    }
 }
+devolverNumero(47,"hola")
