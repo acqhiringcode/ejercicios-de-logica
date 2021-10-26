@@ -5,10 +5,10 @@ let pesonajesDeLol = ['lux', 'morgana', 'nautilus', 'blitzcrank', 'garen'];
 function pesonajes(numero, fin, personaje) {
     console.log("personajesConNumero");
     for (let i = numero; i <= fin; i++) {
-        console.log(i, personaje);
+        console.log(i,pesonajesDeLol );
     }
 }
-pesonajes( 0,4,'morgana',);
+pesonajes( 0,4,);
 
 // resultado
 
