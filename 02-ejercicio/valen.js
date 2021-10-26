@@ -5,6 +5,13 @@
 // Ejemplo
 
 // devuelveNumeroDesdeHasta(5, 9);
+function devolverNumero(numero,letra) {
+    console.log("devolverNumero");
+    for (let i = numero; i <= 9; i ++) {
+        console.log(i,letra);
+    }
+}
+devolverNumero(5,"listo_Fer")
 
 // Resultado por consola
 // 5
