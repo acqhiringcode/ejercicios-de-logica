@@ -5,7 +5,6 @@
 // Ejemplo
 
 // devuelveNumeroDesdeHasta(5, 9);
-<<<<<<< HEAD
 function ponerNumero(numero,letra) {
     console.log("ponerNumero");
     for (let i = numero; i <= 9; i ++) {
@@ -13,8 +12,6 @@ function ponerNumero(numero,letra) {
     }
 }
 ponerNumero(5,"listo_Fer")
-=======
->>>>>>> parent of 41ffbad (listo)
 
 // Resultado por consola
 // 5
