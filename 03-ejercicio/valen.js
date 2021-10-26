@@ -2,6 +2,14 @@
 
 let pesonajesDeLol = ['lux', 'morgana', 'nautilus', 'blitzcrank', 'garen'];
 
+function pesonajes(numero, fin, personaje) {
+    console.log("personajesConNumero");
+    for (let i = numero; i <= fin; i++) {
+        console.log(i, personaje);
+    }
+}
+pesonajes( 0,4,'morgana',);
+
 // resultado
 
 
@@ -10,3 +18,5 @@ let pesonajesDeLol = ['lux', 'morgana', 'nautilus', 'blitzcrank', 'garen'];
 // nautilus 2 
 // blitzcrank 3
 // garen 4
+
+// esta mal pero no me sale y vi el final pero tampoco lo entiendo mucho
